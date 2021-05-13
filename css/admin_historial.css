@@ -1,0 +1,97 @@
+
+
+.table-cart table {
+  width: 100%;
+}
+.table-cart thead {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 5px;
+}
+.table-cart thead tr th {
+  padding: 8px 0 18px;
+  color: #2980B9;
+  font-size: 15px;
+  font-weight: 400;
+}
+.table-cart tr td {
+  padding: 40px 0 27px;
+  vertical-align: middle;
+}
+.table-cart tr td:nth-child(1) {
+  width: 20%;
+}
+.table-cart tr td:nth-child(2) {
+  width: 26%;
+}
+.table-cart tr td:nth-child(3) {
+  width: 13.333%;
+
+}
+.table-cart tr td:nth-child(4) {
+  width: 8.667%;
+  text-align: center;
+}
+.table-cart tr td .img-product {
+  width: 72px;
+  float: left;
+  margin-left: 8px;
+  margin-right: 31px;
+  line-height: 63px;
+}
+.table-cart tr td .img-product img {
+width: 100%;
+}
+.table-cart tr td .name-product {
+  font-size: 15px;
+  color:#000;
+  padding-top: 8px;
+  line-height: 24px;
+  width: 50%;
+}
+.table-cart tr td .price {
+  text-align: right;
+  line-height: 64px;
+  margin-right: 40px;
+  color:#000;
+  font-size: 16px;
+}
+.table-cart tr td .quanlity {
+  position: relative;
+}
+.count-inlineflex {
+display: inline-flex;
+border: solid 2px #ccc;
+border-radius: 20px;
+}
+.total {
+font-size: 24px;
+font-weight: 600;
+color: #2980B9;
+}
+.display-flex {
+display: flex;
+}
+.align-center {
+align-items: center;
+}
+
+input:focus {
+outline: none;
+box-shadow: none;
+}
+.round-black-btn {
+border-radius: 25px;
+  background: #2980B9;
+  color: #fff;
+  padding: 8px 35px;
+  display: inline-block;
+  border: solid 2px #2980B9;
+  transition: all 0.5s ease-in-out 0s;
+  cursor: pointer;
+}
+.round-black-btn:hover,
+.round-black-btn:focus {
+background: transparent;
+color: #2980B9;
+text-decoration: none;
+}
