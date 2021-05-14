@@ -37,9 +37,9 @@ $_SESSION['pagina'] = "index.php";
     </div>
 
     <!-- PRODUCTOS -->
-    <h2 class="text-center">POPULARES</h2>
+    <h2 class="text-center">ALTA GAMA</h2>
     <div class="row text-center">
-      <?php $query_registros = "SELECT *  FROM productos  where vendidos>= 20 LIMIT 6";
+      <?php $query_registros = "SELECT *  FROM productos  where precio >= 10000 LIMIT 6";
         $resultado=mysqli_query($conn,$query_registros);
 
         while($row = $resultado->fetch_array()) {
@@ -58,7 +58,7 @@ $_SESSION['pagina'] = "index.php";
 
      <h2 class="text-center">ACCESIBLES</h2><hr>
      <div class="row text-center">
-       <?php $query_registros = "SELECT *  FROM productos  where precio <10000 && vendidos>=15 LIMIT 6";
+       <?php $query_registros = "SELECT *  FROM productos  where precio <10000  LIMIT 6";
          $resultado=mysqli_query($conn,$query_registros);
 
          while($row = $resultado->fetch_array()) {
